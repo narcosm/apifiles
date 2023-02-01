@@ -69,7 +69,7 @@ tb_filesController.updateTb_files = async (req, res) => {
     res.json(upd)
 }
 
-tb_filesController.createFiles = async (req, res) => {
+tb_filesController.createFilesS3 = async (req, res) => {
     log.info('createFilesS3')
 
     if (req.files) {

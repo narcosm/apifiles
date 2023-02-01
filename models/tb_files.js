@@ -7,10 +7,11 @@ const tb_filesSchema = {
         'sha': { 'type': 'string' },
         'size': { 'type': 'string' },
         'location': { 'type': 'string' },
-        'mails': { 'type': 'string' },
-        'mail_user': { 'type': 'string' },
+        'mail': { 'type': 'string' },
+        'mails_users': { 'type': 'string' },
+        'state': { 'type': 'string' },
     },
-    'required': []
+    'required': ['name','tp_mime','sha', 'size', 'location', 'mail']
 };
 
 
